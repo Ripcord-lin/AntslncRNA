@@ -1,2 +1,2 @@
 # AntslncRNA
-code used in Ants lncRNA research
+Code used in Ants lncRNA research: "lncRNA regulates developmental canalization for caste differentiation in ants"
