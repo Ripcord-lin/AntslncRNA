@@ -1,6 +1,6 @@
 cur_dir = dirname(rstudioapi::getSourceEditorContext()$path)
 setwd(cur_dir)
-source("./raw_data_process/mpha.dev.RNAseq/ini.R",chdir = T)
+source("../../raw_data_process/mpha.dev.RNAseq/ini.R",chdir = T)
 source("cscore_shared_function.R")
 library(FactoMineR)
 library(dplyr)
