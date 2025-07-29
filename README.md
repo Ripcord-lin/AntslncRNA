@@ -13,9 +13,9 @@ xxxxxxx
 	- [Annotation of lncRNA](data/genome/)
 - [RNA-seq data process](script/raw_data_process/)
 	- [Mpha from larva_2nd to adults](script/raw_data_process/mpha.dev.RNAseq/)
-	- [LTR-harvest](script/ltrharvest.sh)
-	- [Classify LTR by RBH](script/mark.ltr.sh)
-	- [TSD checking](script/TSD_checking/)
+	- [Mpha from embryo to larva_1st](script/raw_data_process/mpha.dev.RNAseq.embryo_1st/)
+	- [Mpha_JH](script/raw_data_process/mpha.JH.RNAseq/)
+	- [Aech_developmental](script/raw_data_process/aech.dev.RNAseq/)
 - [CTS calculate](script/CTS/JH.CTS.R)
 - [Canalization score calculate](script/canalization_score/)
 
