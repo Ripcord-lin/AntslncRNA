@@ -18,4 +18,6 @@ xxxxxxx
 	- [Aech_developmental](script/raw_data_process/aech.dev.RNAseq/)
 - [CTS calculate](script/CTS/JH.CTS.R)
 - [Canalization score calculate](script/canalization_score/)
+- [Developmental potential](script/dev_potential.R)
+
 
