@@ -6,26 +6,16 @@ Code used in Ants lncRNA research: "lncRNA regulates developmental canalization 
 xxxxxxx
 
 
-# 待编辑
-## NOTES
-The genomes could also be downloaded from the NCBI database according to Supplemental Table S1. All the avian genomes used in this study are available at the Bird 10k project website: https://b10k.com/.
-
-If any questions, contact at chenguangji@genomics.cn.
-
 ## Customized codes
-- [Data used in this study](data/Supplementary%20Data%201.csv)
-	- [eggNOG-mapper result](data/build/out.emapper.annotations.tsv)
-	- [GO analysis build script](data/build/build_local.R)
-	- [tree files](data/tree/)
-	- [Supplementary Information](Figures/Supplementary%20Information/)
-- [Solo-LTRs identification](script/example.sh)
-	- [RepeatMasker](script/RepeatMasker/RepeatMasker.sh)
+- [Data used in this study](data/build/)
+	- [eggNOG-mapper result](data/build/Mpha.emapper.annotations.tsv)
+	- [Enrichment analysis build script](data/build/build_locoal_org.Mpha.eg.db.R)
+	- [Annotation of lncRNA](data/genome/)
+- [RNA-seq data process](script/raw_data_process/)
+	- [Mpha from larva_2nd to adults](script/raw_data_process/mpha.dev.RNAseq/)
 	- [LTR-harvest](script/ltrharvest.sh)
 	- [Classify LTR by RBH](script/mark.ltr.sh)
 	- [TSD checking](script/TSD_checking/)
-- [Main Figure plot](Figures/Main_Plot.Rmd)
-	- [Figure_1](Figures/Figure_1/)
-	- [Figure_2](Figures/Figure_2/)
-	- [Figure_3](Figures/Figure_3/)
-	- [Figure_4](Figures/Figure_4/)
+- [CTS calculate](script/CTS/JH.CTS.R)
+- [Canalization score calculate](script/canalization_score/)
 
